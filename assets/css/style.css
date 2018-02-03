@@ -1,0 +1,129 @@
+
+h2{
+  color: white
+}
+
+h1{
+  color: #4aaaa5
+}
+/* background */
+body{
+  background-color: antiquewhite
+}
+
+.imgfloat{
+  float: left;
+  padding-right: 5px;
+}
+/*top border  */
+#fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 97%;
+  height: 5.6px;
+  padding: 30px;
+  margin: 0;
+  border-style: solid;
+  border-color: rgb(226, 223, 223);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+  background: white;
+  text-align: right;
+}
+/* bottom border */
+#fixed2 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 97%;
+  height: 5.6px;
+  padding: 30px;
+  margin: 0;
+  border-style: solid;
+  border-color: #4aaaa5;
+  border-top-width: 5px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  text-align: center;
+  background: #6b6969;
+}
+
+/* horizontal lines  */
+.lineunder{
+  width: 90%;
+  color: rgb(100, 98, 98);
+}
+
+/* Name Box */
+.box1{
+  position: fixed;
+  top: 0;
+  left: 60px;
+  height: 65px;
+  width: 400px;
+  margin: 50;
+  text-align: center;
+  background: #4aaaa5;
+}
+
+/* wrapper for main box left side */
+.wrapper{
+  position: relative;
+  width:650px;
+  border-style: groove;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  background-color: white;
+  padding: 20px;
+  top: 60px;
+  margin: 50px;
+}
+
+
+/* About */
+.topbox1{
+  position: fixed;
+  top: 20px;
+  right: 25%;
+}
+
+/* Profile */
+.topbox2{
+  position: fixed;
+  top: 20px;
+  right: 20%;
+}
+
+/* Contact */
+.topbox3{
+  position: fixed;
+  top: 20px;
+  right: 15%;
+}
+
+/* social accounts box */
+.wrapper2{
+  position: fixed;
+  width:270px;
+  border-style: groove;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  top: 60px;
+  left: 65%;
+  text-align: center;
+  margin: 50px;
+}
+
+/* contact form styling */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+

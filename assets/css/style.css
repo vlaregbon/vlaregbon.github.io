@@ -1,10 +1,15 @@
 
 h2{
-  color: white
+  color: black;
+  text-decoration: underline;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: fantasy; 
 }
 
 h1{
-  color: #4aaaa5
+  color: #4aaaa5;
+  font-size: 27px;
 }
 /* background */
 body{
@@ -14,6 +19,10 @@ body{
 .imgfloat{
   float: left;
   padding-right: 5px;
+}
+.smallheading{
+  font-synthesis: weight;
+  text-align: center;
 }
 /*top border  */
 #fixed {
@@ -38,17 +47,11 @@ body{
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 97%;
+  width: 100%;
   height: 5.6px;
   padding: 30px;
   margin: 0;
-  border-style: solid;
-  border-color: #4aaaa5;
-  border-top-width: 5px;
-  border-left-width: 0px;
-  border-bottom-width: 0px;
   text-align: center;
-  background: #6b6969;
 }
 
 /* horizontal lines  */
@@ -66,7 +69,6 @@ body{
   width: 400px;
   margin: 50;
   text-align: center;
-  background: #4aaaa5;
 }
 
 /* wrapper for main box left side */
@@ -77,47 +79,34 @@ body{
   border-width: 2px;
   border-color: rgb(255, 255, 255);
   background-color: white;
-  padding: 20px;
+  /* padding: 20px;
   top: 60px;
-  margin: 50px;
+  margin: 50px; */
 }
 
 
 /* About */
-.topbox1{
-  position: fixed;
-  top: 20px;
-  right: 25%;
-}
-
-/* Profile */
-.topbox2{
-  position: fixed;
-  top: 20px;
-  right: 20%;
-}
-
-/* Contact */
-.topbox3{
-  position: fixed;
-  top: 20px;
-  right: 15%;
+.button1{
+  color: black;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  
 }
 
 /* social accounts box */
 .wrapper2{
-  position: fixed;
+  position: relative;
   width:270px;
   border-style: groove;
   border-width: 2px;
   border-color: rgb(255, 255, 255);
   background-color: white;
-  padding-left: 5px;
+  /* padding-left: 5px;
   padding-right: 5px;
-  top: 60px;
-  left: 65%;
+  top: 60px; */
+  float: right;
   text-align: center;
-  margin: 50px;
+  /* margin: 50px; */
 }
 
 /* contact form styling */
@@ -126,4 +115,10 @@ input[type=text], select, textarea{
   padding: 12px;
   box-sizing: border-box;
 }
+
+.tabss{
+  position: fixed;
+  left: 74%;
+}
+
 

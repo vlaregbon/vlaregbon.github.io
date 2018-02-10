@@ -3,30 +3,55 @@
 
 <head>
   <title>My Profile</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
+integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-  <div id="fixed">
-    <div class="topbox1">
+  <nav class="navbar navbar-dark bg-primary">
+    <!-- About -->
+    <!-- <div class="topbox1">
       <a href="index.html">About</a>
-    </div>
-    <div class="topbox2">
+    </div> -->
+
+    <!-- Portfolio -->
+    <!-- <div class="topbox2">
       <a href="portfolio.html">Portfolio</a>
-    </div>
-    <div class="topbox3">
+    </div> -->
+
+    <!-- Contact -->
+    <!-- <div class="topbox3">
       <a href="contact.html">Contact</a>
-    </div>
+    </div> -->
+
+    <!-- Name (on left side) -->
     <div class="box1">
       <h2>Vladimir Reginald Bonhomme</h2>
     </div>
-  </div>
-  <div class="wrapper">
-    <section id="content">
-      <H1>Contact</H1>
-      <hr class="lineunder">
-      <div>
 
+    <ul class="nav nav-pills tabss">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html"><button class=button>Portfolio</button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html"><button class=button>About</button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="contact.html"><button class=button>Contact</button></a>
+        </li>
+      </ul>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 wrapper"> 
+      <H1>Portfolio</H1>
+      <hr class="lineunder">
+      <form>
         <label for="fname"> Name</label>
         <br>
         <input type="text" id="fname" name="firstname" placeholder="First Last">
@@ -47,29 +72,36 @@
 
         <input type="submit" value="Submit">
 
-        </form>
-      </div>
-    </section>
-  </div>
-  <div class="wrapper2">
-    <section id="content">
-      <h1>Connect With Me</h1>
-      <hr class="lineunder">
+      </form>
+    </div>
+    <div class="col-sm-6 wrapper2">  
+      <section id="content">
+          <h1>Connect With Me</h1>
+          <hr class="lineunder">
+  
+      <!-- social media pics/links -->
       <p>
-        <a href="https://github.com/vlaregbon">
-          <img src="assets/images/githublogo.jpg" alt="Github logo" width="50" height="50">
-        </a>
-        <a href="https://instagram.com/laughvlad">
-          <img src="assets/images/iglogo.jpg" alt="Instagram logo" width="50" height="50">
-        </a>
-        <a href="https://www.linkedin.com/in/vlaregbon">
-          <img src="assets/images/LinkedInlogo.jpg" alt="Linkedin logo" width="50" height="50">
-        </a>
-      </p>
-    </section>
-  </div>
-
-  <div id="fixed2">
+        
+          <!-- github -->
+          <a href="https://github.com/vlaregbon">
+            <img src="assets/images/githublogo.jpg" alt="Github logo" width="50" height="50">
+          </a>
+        
+          <!-- instagram -->
+          <a href="https://instagram.com/laughvlad">
+            <img src="assets/images/iglogo.jpg" alt="Instagram logo" width="50" height="50">
+          </a>
+        
+          <!-- linkedin -->
+          <a href="https://www.linkedin.com/in/vlaregbon">
+            <img src="assets/images/LinkedInlogo.jpg" alt="Linkedin logo" width="50" height="50">
+          </a>
+  
+        </p> 
+    </div>
+  </div>  
+</div>
+  <div id="fixed2" class="bg-primary">
     Copyright Vladimir Bonhomme
   </div>
 </body>
